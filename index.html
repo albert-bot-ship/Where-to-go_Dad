@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>地點導航</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="overlay">
+    <h1>🚗 我的專屬地點導航</h1>
+    <p>快速搜尋、立即導航，讓出行更方便</p>
+  </div>
+</header>
+
+<main>
+  <!-- 搜尋區 -->
+  <section class="section search-box">
+    <h2>搜尋地點</h2>
+    <div class="search-wrapper">
+      <input type="text" id="location" placeholder="輸入地點名稱">
+      <button id="navigateBtn">
+        <img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png" alt="搜尋">
+      </button>
+      <ul id="suggestions"></ul>
+    </div>
+  </section>
+
+  <!-- 快速導航卡片 -->
+  <section class="section quick-nav">
+    <h2>常用地點</h2>
+    <div class="card-grid">
+      <div class="feature-card">
+        <img src="https://img-baofun.zhhainiao.com/pcwallpaper_ugc/scene/f656c7e249c1941e42f3b01c4121cc76.jpg" alt="家">
+        <p>家</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://taichung.tzuchi.com.tw/images/ddd01/2024-04-25600x400px_fc531.jpg" alt="慈濟">
+        <p>台中慈濟</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqjU8ulM5IfC7FhK6Bopc9yIzfVGtHD40ZMCAwC0x4yiaopgf1SmeSxLCZl5e8Du8PnkvLOmk0Ghh3dnhkPAMUXOvmsIE6wZ213Qs3Rz74F4hBiEkZT5nNT4uGnm8TM1G4QmmRH=w408-h306-k-no" alt="檢驗廠">
+        <p>外埔檢驗廠</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://www.mitsubishi-motors.com.tw/cmcpublished/company/sym.png" alt="順益">
+        <p>清水順益</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AveNg3bIvuvchWRFnLt6IQ9iWDT7sZqoqQ&s" alt="公司">
+        <p>公司</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4fR4uiYZQ3E2dyLZCTNbbA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=85.37944&pitch=0&thumbfov=100" alt="修理廠">
+        <p>苑裡修理廠</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 底部社群 -->
+<footer>
+  <div class="social">
+    <a href="https://www.facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="FB"></a>
+    <a href="https://www.instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="IG"></a>
+    <a href="https://discord.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord"></a>
+  </div>
+  <p>©2025 MADE BY ALBERTCHEN</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
